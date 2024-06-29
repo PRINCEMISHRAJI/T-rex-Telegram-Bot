@@ -26,4 +26,4 @@ bot.on("inline_query", function(iq) {
     bot.answerInlineQuery(iq.id, [ { type: "game", id: "0", game_short_name: gameName } ] ); 
 });
 
-module.exports = bot;
+module.exports = {bot, queries};
