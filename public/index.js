@@ -2093,7 +2093,7 @@ var playerid = url.searchParams.get("id");
 
              // Submit highscore to Telegram
              var xmlhttp = new XMLHttpRequest();
-             var url = "https://t-rexx.herokuapp.com/highscore/" + distance + 
+             var url = "https://t-rex-telegram-bot.onrender.com/highscore/" + distance + 
                  "?id=" + playerid;
              var sendingText = document.getElementById("sendingText");
              sendingText.style.display = "block";
